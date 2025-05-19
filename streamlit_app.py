@@ -7,7 +7,7 @@ import time
 st.set_page_config(page_title="SmartDesk", layout="wide")
 
 # Store OpenAI key (ideally via secrets)
-openai.api_key = st.secrets.get("openai_api_key", "your-api-key-here")
+openai.api_key = st.secrets.get("openai_api_key", "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")
 
 # ------------------ Sidebar Navigation -------------------
 st.sidebar.title("SmartDesk 🧠")
